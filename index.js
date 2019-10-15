@@ -8,3 +8,10 @@ function writeCards(names, eventNames){
   }
   return newarray
 }
+
+
+function countdown(number){
+  for (let i = number; i<= 0; i--){
+    console.log(i)
+  }
+}
