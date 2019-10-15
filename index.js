@@ -1,8 +1,9 @@
 // Code your solutions in this file
 
 function writeCards(names, eventNames){
+  let newarray;
   for(let i=0; i < names.length; i++){
-        console.log(`Thank you, ${names[i]}, for the wonderful ${eventNames[i]} gift!`);
+       newarray.push(`Thank you, ${names[i]}, for the wonderful ${eventNames[i]} gift!`) 
 
   }
   
