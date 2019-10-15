@@ -6,5 +6,5 @@ function writeCards(names, eventNames){
        newarray.push(`Thank you, ${names[i]}, for the wonderful ${eventNames} gift!`) 
 
   }
-  
+  return newarray
 }
